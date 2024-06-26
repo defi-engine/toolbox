@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "toolbox"
+version = "0.1.0"
+description = ""
+authors = ["rsdev"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+loguru = "^0.7.2"
+eth-brownie = "^1.20.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
